@@ -12,17 +12,21 @@ body {
 
 #main {
   margin-top: 70px;
-  background-color: black;
+  background-color: grey;
   border: 1px solid white;
-  width: 45vw;
+  border-radius: 10px;
+  width: 400px;
   height: auto;
 }
 
 #display {
+  background-color: black;
 text-align: end;
   color: orange;
   margin: 5px;
-  border: solid 1px black;
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 5px;
   height: 45px;
 }
 
@@ -34,7 +38,7 @@ text-align: end;
 
 #bottom {
   margin: 5px;
-  border: solid 1px black;
+  /* border: solid 1px black; */
   height: 535px;
   display: grid;
   gap: 1px;
@@ -51,102 +55,187 @@ text-align: end;
   grid-area: zero;
   background-color: darkslategray;
   color: white;
+  border-radius: 5px;
+}
+
+#zero:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
 #one {
   grid-area: one;
   background-color: darkslategray;
   color: white;
+  border-radius: 5px;
+}
+
+#one:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
 #two {
   grid-area: two;
   background-color: darkslategray;
   color: white;
+  border-radius: 5px;
+}
+
+#two:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
 #three {
   grid-area: three;
   background-color: darkslategray;
   color: white;
+  border-radius: 5px;
+}
+
+#three:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
 #four {
   grid-area: four;
   background-color: darkslategray;
   color: white;
+  border-radius: 5px;
+}
+
+#four:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
 #five {
   grid-area: five;
   background-color: darkslategray;
   color: white;
+  border-radius: 5px;
+}
+
+#five:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
 #six {
   grid-area: six;
   background-color: darkslategray;
   color: white;
+  border-radius: 5px;
+}
+
+#six:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
 #seven {
   grid-area: seven;
   background-color: darkslategray;
   color: white;
+  border-radius: 5px;
+}
+
+#seven:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
 #eight {
   grid-area: eight;
   background-color: darkslategray;
   color: white;
+  border-radius: 5px;
+}
+
+#eight:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
 #nine {
   grid-area: nine;
   background-color: darkslategray;
   color: white;
+  border-radius: 5px;
+}
+
+#nine:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
 #add {
   grid-area: add;
   background-color: gray;
   color: white;
+  border-radius: 5px;
+}
+
+#add:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
 #subtract {
   grid-area: subtract;
   background-color: gray;
   color: white;
+  border-radius: 5px;
+}
+
+#subtract:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
 #multiply {
   grid-area: multiply;
   background-color: gray;
   color: white;
+  border-radius: 5px;
+}
+
+#multiply:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
 #divide {
   grid-area: divide;
   background-color: gray;
   color: white;
+  border-radius: 5px;
+}
+
+#divide:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
 #decimal {
   grid-area: decimal;
   background-color: darkslategray;
   color: white;
+  border-radius: 5px;
+}
+
+#decimal:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
 #clear {
   grid-area: clear;
   background-color: red;
   color: white;
+  border-radius: 5px;
+}
+
+#clear:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
 #equals {
   grid-area: equals;
   background-color: steelblue;
   color: white;
+  border-radius: 5px;
+}
+
+#equals:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
 .flex {
@@ -156,6 +245,8 @@ text-align: end;
   font-weight: bold;
 
 }
+
+
 .num {
   font-weight: bold;
   border: none;
