@@ -1,0 +1,162 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  margin-top: 70px;
+  background-color: black;
+  border: 1px solid white;
+  width: 45vw;
+  height: auto;
+}
+
+#display {
+text-align: end;
+  color: orange;
+  margin: 5px;
+  border: solid 1px black;
+  height: 45px;
+}
+
+#display1 {
+  color: white;
+  font-size: x-large;
+}
+
+
+#bottom {
+  margin: 5px;
+  border: solid 1px black;
+  height: 535px;
+  display: grid;
+  gap: 1px;
+  text-align: center;
+  grid-template-areas:
+    "clear clear divide multiply"
+    "seven eight nine subtract"
+    "four five six add"
+    "one two three equals"
+    "zero zero decimal equals";
+}
+
+#zero {
+  grid-area: zero;
+  background-color: darkslategray;
+  color: white;
+}
+
+#one {
+  grid-area: one;
+  background-color: darkslategray;
+  color: white;
+}
+
+#two {
+  grid-area: two;
+  background-color: darkslategray;
+  color: white;
+}
+
+#three {
+  grid-area: three;
+  background-color: darkslategray;
+  color: white;
+}
+
+#four {
+  grid-area: four;
+  background-color: darkslategray;
+  color: white;
+}
+
+#five {
+  grid-area: five;
+  background-color: darkslategray;
+  color: white;
+}
+
+#six {
+  grid-area: six;
+  background-color: darkslategray;
+  color: white;
+}
+
+#seven {
+  grid-area: seven;
+  background-color: darkslategray;
+  color: white;
+}
+
+#eight {
+  grid-area: eight;
+  background-color: darkslategray;
+  color: white;
+}
+
+#nine {
+  grid-area: nine;
+  background-color: darkslategray;
+  color: white;
+}
+
+#add {
+  grid-area: add;
+  background-color: gray;
+  color: white;
+}
+
+#subtract {
+  grid-area: subtract;
+  background-color: gray;
+  color: white;
+}
+
+#multiply {
+  grid-area: multiply;
+  background-color: gray;
+  color: white;
+}
+
+#divide {
+  grid-area: divide;
+  background-color: gray;
+  color: white;
+}
+
+#decimal {
+  grid-area: decimal;
+  background-color: darkslategray;
+  color: white;
+}
+
+#clear {
+  grid-area: clear;
+  background-color: red;
+  color: white;
+}
+
+#equals {
+  grid-area: equals;
+  background-color: steelblue;
+  color: white;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+
+}
+.num {
+  font-weight: bold;
+  border: none;
+}
